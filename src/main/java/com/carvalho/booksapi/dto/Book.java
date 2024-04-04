@@ -13,6 +13,7 @@ public class Book {
     private BigInteger id = new BigInteger("0");
     private string name;
     private string author;
+    private string synopsis = null;
     private string publisher = null;
     private int numPages = 0;
     private int yearPublish = 0;
